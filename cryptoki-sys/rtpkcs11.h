@@ -1,0 +1,3 @@
+#include "pkcs11.h"
+
+#define CKA_VENDOR_ATTRIBUTE_VALUE_1 (CKA_VENDOR_DEFINED | 0x8001)
