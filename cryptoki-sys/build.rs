@@ -82,7 +82,6 @@ mod generate {
 
     pub fn generate_bindings() {
         let bindings = bindgen::Builder::default()
-            .header("pkcs11.h")
             .header("rtpkcs11.h")
             .dynamic_library_name("Pkcs11")
             // The PKCS11 library works in a slightly different way to most shared libraries. We have
